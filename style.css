@@ -1,0 +1,35 @@
+.c{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.grid{
+	display:grid;
+	grid-template-columns: min-content auto min-content;
+	align-items: center;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -1%;
+}
+.grid2{
+	display:grid;
+	grid-template-columns: min-content min-content;
+    align-items: center;
+    margin-left: -2%;
+    margin-top: 1%;
+}
+.grid3{
+	display:grid;
+	grid-template-columns: auto max-content;
+    align-items: center;
+    margin-left: -2%;
+    margin-top: -50%;
+}
+.item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+	
+}
